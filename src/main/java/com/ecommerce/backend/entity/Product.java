@@ -22,16 +22,16 @@ public class Product {
     @Column(nullable = false)
     private String name;
 
-    @Column(length = 2000)
+    @Column(columnDefinition = "TEXT")
     private String description;
 
     @Column(nullable = false)
     private BigDecimal price;
 
-    @Column(length = 2000)
+    @Column(columnDefinition = "TEXT")
     private String imageUrl;
 
-    @Column(length = 2000)
+    @Column(columnDefinition = "TEXT")
     private String additionalImages;
 
     @Column(nullable = false)
